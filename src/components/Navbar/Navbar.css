@@ -1,0 +1,87 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 7%;
+    transition: 0.5s;
+    box-sizing: border-box; /* Ensure box-sizing is set to border-box */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.logo {
+    width: 160px;
+    cursor: pointer;
+    /* Adjust margins or padding if necessary */
+}
+
+ul {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+.toggle-icon {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.search-box img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.dark .navbar {
+    background: #000;
+    color: #fff;
+}
+
+.navbar button{
+    flex: 1; /* Take remaining space */
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    border-radius: 5rem;
+    outline: 0;
+    color: #fff;
+    background-color: #df173f;
+    font-size: 18px;
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.dark .navbar button {
+    background: #df173f ;
+    color: #fff;
+}
+.space{
+    width: 100%;
+    height: 2px;
+  border-bottom: 1px solid #ccc; /* Bottom border */
+}
+.dark .space{
+    border-bottom: 1px solid #242424; /* Bottom border */
+}

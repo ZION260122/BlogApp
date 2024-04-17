@@ -1,0 +1,137 @@
+.gap-provider{
+    margin: 10px auto;
+    border-top: 1px solid #242424;
+    margin-bottom: 0;
+}
+.footer {
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+.footer-gap{
+    background-color: white; /* Background color of the navbar */
+    border-bottom: 1px solid #ccc; /* Bottom border */
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact span {
+    display: block;
+    margin-bottom: 10px;
+}
+.links {
+    display: flex;
+    flex-direction: column; /* Display list items in a column */
+    align-items: flex-start; /* Align items to the start (left) */
+}
+
+.links ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0; /* Remove default margin */
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #555;
+}
+
+
+.contact-form .text-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contact-form .btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form .btn:hover {
+    background-color: #555;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+/* Light Theme */
+.light .footer {
+    background-color: #f9f9f9;
+}
+
+.light .container { 
+    background-color: #f9f9f9;
+    color: #333;
+}
+.light .footer-section.about {
+    color: #333;
+}
+
+.light .links a {
+    color: #333;
+}
+
+.light .contact-form .btn {
+    background-color: #333;
+}
+.dark .footer-bottom {
+    color: #333;
+}
+
+/* Dark Theme */
+.dark .footer {
+    background-color: #222;
+}
+
+.dark .footer-section.about {
+    color: #fff;
+}
+.dark .container { 
+    background-color: #222;
+    color: #fff;
+}
+
+.dark .links a {
+    color: #fff;
+}
+
+.dark .contact-form .btn {
+    background-color: #555;
+}
+
+.dark .footer-bottom {
+    color: #fff;
+}

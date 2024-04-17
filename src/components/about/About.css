@@ -1,0 +1,44 @@
+.about-eduford-content {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    width: 100%;
+    color: var(--text-color); /* Use CSS variable for text color */
+    background-color: var(--background-color); /* Use CSS variable for background color */
+}
+
+.about-eduford-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-eduford-content h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.about-eduford-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-eduford-content .bold {
+    font-weight: bold;
+}
+
+.about-eduford-content .emphasis {
+    font-style: italic;
+}
+
+/* Light mode */
+.light .about-eduford-content {
+    --text-color: #333; /* Set text color for light mode */
+    --background-color: #f9f9f9; /* Set background color for light mode */
+}
+
+/* Dark mode */
+.dark .about-eduford-content {
+    --text-color: #fff; /* Set text color for dark mode */
+    --background-color: #222; /* Set background color for dark mode */
+}
